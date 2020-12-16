@@ -1,6 +1,7 @@
 import random
-l1 = list(range(1,83))
+
 p = int(input("Total number of players: "))
+l1 = list(range(1,p+1))
 n = int(input("Number of team members: "))
 l2 = []
 l3 = []
